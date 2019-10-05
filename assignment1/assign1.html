@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<meta charset="utf-9">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type ="text/css" href="design.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row"></div>
+        <div class="title">
+            <h1>POCKET MONEY MANAGER</h1>
+        </div>
+        <div class="row">
+                <div class=" col md-5 my-3 mx-3">
+                   
+                            <form id="input-form" class="input-form">
+                                    <div class="form-group">
+                                        <label id="header">Income:<input type="number" class="form-control income" id="income" /> </label>
+                                    </div>
+                                    <button  class="btn btn-outline-primary" id="input-button1">Enter</button>           
+                            </form>  
+                    
+                      
+                </div> 
+                <div class="col md-7 my-3 mx-3  d-flex justify-content-between display">
+              
+                            <div class="col-4 text-center">
+                                    <h3 class="titlee">INCOME</h3>                                 
+                                    <h4 class="input" id="input"><span id="income-amount">0</span></h4>
+                            </div>
+                            <div class="col-4 text-center">
+                                    <h3 class="titlee">EXPENSES</h3>                                   
+                                    <h4 class="output" id="output"><span id="expense-amount">0</span></h4>
+                            </div>
+                            <div class="col-4 text-center">
+                                    <h3 class="titlee">INHAND</h3>                                   
+                                    <h4 class="left" id="left"> <span id="balance-amount">0</span></h4>
+                            </div> 
+              
+                        
+                </div>
+               
+        </div>
+        <div class="row">
+                <div class=" col md-7 my-3 mx-3">
+                        <form id="expense-form" class="expense-form">
+                            <div class="form-group">
+                                <label id="header">Description:<input type="text" class="form-control description out" id="description" placeholder="Where did you spend?"/></label>                            
+                            </div>
+                            <div class="form-group">
+                                <label id="header">Date:<input type="date" class="form-control date out " id="date" placeholoder="When did you spend?"/></label>
+                            </div>
+                            <div class="form-group">
+                                <label id="header">Amount:<input type="number" class="form-control expense out" id="expense" /></label>
+                            </div>
+                            <button class="btn btn-outline-danger" id="input-button2">Add</button> 
+                        </form>
+                    </div>
+                    <div class="expense-list col md-5  col xs-5 my-3 mx-3" >
+                        <ul id="expense-list">
+                            <li>
+                            <div class="expense-details d-flex justify-content-between">
+                                   
+                                            <h5 class="list-element">Description</h5> 
+                                            <h5 class="list-element">Date</h5> 
+                                            <h5 class="list-element">Amount</h5> 
+                                            <h5 class="list-element"></h5> 
+                                            <h5 class="list-element"></h5>   
+                            </div>                                                                                  
+                                   
+
+                            </li>
+                               
+                        </ul>
+                            
+                        </div>           
+        </div>
+    </div>
+
+<script src="a11.js"></script>
+</body>
+</html>

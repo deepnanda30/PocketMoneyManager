@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya&display=swap');
+body{
+    background-image:linear-gradient( to bottom right, #b5fbff,#ffff);
+    background-repeat: no-repeat ;
+    background-size:cover;
+}
+.input-form{
+    border: 1px solid blue;
+    border-radius:7px;
+    padding: 5px;
+    width:75%;
+    text-align: center;
+  
+}
+.expense-form{
+    border: 1px solid red;
+    border-radius:7px;
+    padding: 5px;
+    width:75%;
+    text-align: center;
+
+}
+.title{
+    text-align: center;
+    font-family:'EB Garamond';
+}
+.titlee{
+    text-align: center;
+    font-family:'Alegreya';
+}
+#header{
+    font-size:23px;
+    font-family:'Alegreya';
+    font-weight: 1px;
+}
+.income{
+    border: 0.5px solid #34ebe8;
+}
+.out{
+    border: 0.5px solid #d12a08;
+}
+.list-element{
+    text-align: center;
+    font-family:'Alegreya';
+    font-size:24px;
+}
+.display{
+    transform: translateX(-47px);
+ 
+}
